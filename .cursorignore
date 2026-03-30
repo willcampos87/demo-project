@@ -1,0 +1,6 @@
+﻿# Reduce IDE indexing of local secrets (does not replace .gitignore)
+.env
+.env.*
+!.env.example
+credentials.json
+token.json

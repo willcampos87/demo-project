@@ -1,0 +1,7 @@
+# Optional: install with `pip install pre-commit` then `pre-commit install`
+# Scans commits for leaked secrets (requires gitleaks binary; pre-commit can fetch it).
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.21.2
+    hooks:
+      - id: gitleaks

@@ -1,0 +1,18 @@
+# Secrets and local config
+.env
+credentials.json
+token.json
+
+# Disposable intermediates (keep .tmp/.gitkeep tracked)
+.tmp/*
+!.tmp/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
